@@ -1,0 +1,68 @@
+.Makememoriescontainer{
+    background-color: #f1f7f7;
+    min-height: 100vh;
+}
+
+.titlemakememoriescontainer{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    align-items: center;
+}
+
+.titlemakememoriescontainer h1{
+    font-size: 57px;
+    width: 60%;
+}
+
+.titlemakememoriescontainer button{
+    width: 130px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: transparent;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.Boxmakememoriescontainer{
+    margin-top: 1%;
+    max-width: 300px;
+    min-height: 420px;
+    background-color: white;
+    border-radius: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cerclememoriescontainer{
+    margin-bottom: 6%;
+    min-width: 80px;
+    min-height: 80px;
+    border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.iconmakememories{
+    width: 30px;
+    height: 30px;
+    color: white;
+}
+
+.Boxmakememoriescontainer p{
+    width: 80%;
+    text-align: center;
+    margin-top: -2%;
+}
+
+.Boxesmakememoriescontainer{
+    display: flex;
+    justify-content: center;
+    column-gap: 3%;
+    flex-wrap: wrap;
+}

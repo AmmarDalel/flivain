@@ -1,0 +1,68 @@
+.travelsupportcontainer{
+    min-height: 100vh;
+    text-align: center;
+    padding-top: 7%;
+}
+
+.travelsupportcontainer h2{
+    letter-spacing: 7px;
+    font-weight: 600;
+}
+
+.travelsupportcontainer h1{
+
+    font-size: 55px;
+
+}
+.travelsupportcontainer p{
+    font-weight: 300;
+
+}
+
+.travelsupportcontainer h1 , .travelsupportcontainer p{
+    margin-top: -2%;
+
+}
+
+.plainwing{
+  width: 620px;
+}
+
+.travelsupportinfoconatiner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    padding-left: 10%;
+}
+
+.travelsupportinfoconatiner p{
+    width: 360px;
+}
+
+.indexdata{
+    width: 35px;
+    border-radius: 10px;
+}
+
+
+
+.boxtravelsuppocontainer h2{
+    letter-spacing: 0;
+    font-size: 25px;
+
+}
+
+.boxtravelsuppocontainer  p{
+    font-size: 17px;
+}
+
+.indexdata .indexdatap{
+    text-align: center;
+    width: 35px;
+    color: white;
+    font-size: 13px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-bottom: -40%;
+    }

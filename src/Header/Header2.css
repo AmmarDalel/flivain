@@ -1,0 +1,45 @@
+.navbar{
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    margin-bottom: 0;
+}
+
+.loginimage{
+    width: 100px;
+}
+
+
+.navigationUL{
+    
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    column-gap: 60px;
+    font-size: 15px;
+    font-weight: 700;
+ }
+
+ .navigationUL li:hover{
+    color: black;
+    text-decoration:underline solid 2px;
+    cursor: pointer;
+ }
+
+ .Contactbtn{
+    padding: 7px 22px 7px 22px;
+    background-color: #1239af;
+    color: white;
+    border: none;
+    border-radius: 50px;
+   
+ }
+
+ .Contactbtn:hover{
+    background-color: white;
+    border: #1239af solid 2px;
+    color:#1239af;
+    cursor: pointer;
+
+ }
+

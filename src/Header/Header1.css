@@ -1,0 +1,58 @@
+.Header1Container , .navbar{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.Header1Container {
+    background-color: #f1f7f7;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.gridicon{
+    width: 30px;
+    height: 30px;
+}
+
+.supportlanguageUl , .connectUL {
+   list-style: none;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   column-gap: 30px;
+   font-size: 14px;
+   font-weight: 700;
+}
+
+.supportlanguageUl , .connectUL ,.gridicon , .navigationUL{
+    color: #73777b;
+
+}
+
+.supportlanguageUl{
+    margin-right: 10%;
+}
+
+.languageli{
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.laguageicon{
+    padding-top: 2px;
+    width: 11px;
+}
+
+.supportlanguagecontainer{
+    margin-left: 13%;
+}
+
+.supportlanguagecontainer , .navigation{
+    text-align: center;
+    width: 60%;
+
+}

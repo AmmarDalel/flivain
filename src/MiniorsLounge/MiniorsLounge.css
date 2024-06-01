@@ -1,0 +1,26 @@
+.MiniorsLoungeContainer{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    column-gap: 10%;
+   padding-left: 6%;
+   
+}
+
+
+
+.MiniorsLoungeinfo h1{
+    font-size: 75px;
+    max-width: 60%;
+}
+
+.MiniorsLoungeparagraphscontainer{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 5%;
+}
+
+
+.BoxMiniorsLoungecontainer{
+    max-width: 40%;
+}
