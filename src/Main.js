@@ -5,7 +5,8 @@ import Home from './Home/Home'
 import TravelSupport from './TravelSupport/TravelSupport'
 import MakeMemories from './MakeMemories/MakeMemories'
 import MiniorsLounge from './MiniorsLounge/MiniorsLounge'
-import BestTravelsMonth from './BestTravelsMonth/BestTravelsMonth'
+import BestTravelersMonth from './BestTravelersMonth/BestTravelersMonth'
+import GetLetestNews from './GetLetestNews/GetLetestNews'
 function Main() {
   return (
     <>
@@ -15,7 +16,8 @@ function Main() {
         <TravelSupport/>
         <MakeMemories/>
         <MiniorsLounge/>
-        <BestTravelsMonth/>
+        <BestTravelersMonth/>
+        <GetLetestNews/>
     </>
   )
 }
