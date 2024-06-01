@@ -24,3 +24,37 @@
 .BoxMiniorsLoungecontainer{
     max-width: 40%;
 }
+
+
+@media (min-width : 1023px ) {
+    .MiniorsLoungeContainer{
+        padding-left: 0%;
+       
+    }
+}
+
+@media (min-width : 834px ) {
+    
+    .MiniorsLoungeContainer{
+      
+        column-gap: 5%;
+       padding-left: 0%;
+       
+    }
+    .MiniorsLoungeinfo h1{
+        font-size: 55px;
+        max-width: 80%;
+
+    }
+    .MiniorsLoungeContainer img{
+        width: 40%;
+    }
+}
+
+@media (min-width : 768px ) {
+   
+}
+
+@media (min-width : 480px ) {
+  
+}

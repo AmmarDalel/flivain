@@ -43,3 +43,35 @@
 
  }
 
+ 
+
+@media (min-width : 1023px ) {
+   .navbar{
+      padding-left: 1%;
+      padding-right: 1%;
+      width: 100%;
+  }
+  .navigationUL{
+  
+   column-gap: 35px;
+  
+}
+  
+}
+
+@media (min-width : 834px ) {
+   .navigationUL{
+  
+      column-gap: 30px;
+     
+   }
+}
+
+@media (min-width : 768px ) {
+  
+}
+
+@media (min-width : 480px ) {
+ 
+}
+
