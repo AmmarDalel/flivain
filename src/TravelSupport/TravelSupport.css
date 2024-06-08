@@ -10,18 +10,14 @@
 }
 
 .travelsupportcontainer h1{
-
-    font-size: 55px;
-
+    font-size: 40px;
 }
 .travelsupportcontainer p{
     font-weight: 300;
-
 }
 
 .travelsupportcontainer h1 , .travelsupportcontainer p{
     margin-top: -2%;
-
 }
 
 .plainwing{
@@ -37,7 +33,7 @@
 }
 
 .travelsupportinfoconatiner p{
-    width: 360px;
+    width: max-content;
 }
 
 .indexdata{
@@ -70,24 +66,111 @@
 
     
 
-@media (min-width : 1023px ) {
-   
+@media (max-width : 1023px ) {
+    .travelsupportinfoconatiner{
+      
+        padding-left: 3%;
+    }
+
+    .plainwing{
+        width: 35% ;
+      }
+      .travelsupportcontainer{
+        min-height: 70vh;
+    
+    }
    
  }
  
- @media (min-width : 834px ) {
+ @media (max-width : 834px ) {
     .travelsupportinfoconatiner{
       
         padding-left: 6%;
     }
  }
  
- @media (min-width : 768px ) {
+ @media (max-width : 768px ) {
+    .travelsupportinfoconatiner{
+        width: 100%;
+        padding-left: 1%;
+    }
+
+    .travelsupportcontainer{
+        min-height: 70vh;
+    }
+
+    .plainwing{
+        width: 35% ;
+      }
+
+      .travelsupportcontainer h2{
    
+        font-size: 17px;
+    }
+    
+    .travelsupportcontainer h1{
+    
+        font-size: 40px;
+    
+    }
+    .travelsupportcontainer p{
+        font-weight: 300;
+        font-size: 11px;
+    
+    }
+    
+    .travelsupportcontainer h1 , .travelsupportcontainer p{
+        margin-top: -2%;
+    
+    }
+
+    .indexdata{
+        width: 35px;
+        border-radius: 10px;
+    }
+    .boxtravelsuppocontainer h2{
+        font-size: 15px;
+    
+    }
+    
+    .boxtravelsuppocontainer  p{
+        font-size: 10px;
+    }
+ }
+
+ @media (max-width : 480px ) {
+
+    .travelsupportcontainer{
+        min-height: 50vh;
+     
+    }
+    
+   
+    .travelsupportcontainer h1{
+        font-size: 30px;
+    }
+    .travelsupportcontainer p{
+        font-size: 8px;
+    }
+    .indexdata{
+        width: 30px;
+        
+    }
+    .indexdata .indexdatap{
+        width: 30px;
+        font-size: 10px;
+        }
+    .boxtravelsuppocontainer h2{
+        font-size: 13px;
+    
+    }
+    
+    .boxtravelsuppocontainer  p{
+        font-size: 10px;
+        width: 80%;
+    }
  }
  
- @media (min-width : 480px ) {
-  
- }
+
  
  

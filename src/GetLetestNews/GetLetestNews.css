@@ -13,7 +13,7 @@
 
 .subscribecontainer{
     background-color: white;
-    width: 600px;
+    width: 40%;
     height: 60px;
     margin-left: auto;
     margin-right: auto;
@@ -72,5 +72,34 @@ footer h6{
 
 .BoxFooter p{
     font-size: 10px;
+}
+
+
+
+
+@media (max-width : 1023px ) {
+  
+}
+
+@media (max-width : 834px ) {
+    .GetLetestNewscontainer h1{
+        font-size: 40px;
+    }
+    
+}
+
+@media (min-width : 768px ) {
+   
+}
+
+@media (max-width : 480px ) {
+    .GetLetestNewscontainer h1{
+        font-size: 30px;
+    }
+
+    .subscribecontainer{
+        width: 70%;
+    }
+  
 }
 

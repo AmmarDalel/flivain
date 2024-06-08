@@ -1,10 +1,15 @@
-import React from 'react'
+import React , {useEffect} from 'react'
 import './BestTravelersMonth.css'
 import BestTravelersMonthdata from './data'
+import AOS from 'aos' ;
+import 'aos/dist/aos.css'
 function BestTravelersMonth() {
+  useEffect(()=>{
+    AOS.init({duration:1500});
+  },[])
   return (
     <div className='BestTravelersMonthcontainer'>
-        <h1>Best travel of the month</h1>
+        <h1  data-aos="fade-right">Best travel of the month</h1>
         <div className='boxBestTravelersMonthcontainercontainer'>
           {BestTravelersMonthdata.map((item)=>{
               return(
@@ -20,7 +25,7 @@ function BestTravelersMonth() {
 
 function Box({backgroundimg ,personimg , name , email}){
     return(
-        <div className='BoxBestTravelersMonthContainer'>
+        <div className='BoxBestTravelersMonthContainer' data-aos="zoom-in">
             <div className='imagecontainer' style={{ backgroundImage: `url(${backgroundimg})` }}>
             </div>
             <div className='cercle'>

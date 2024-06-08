@@ -24,7 +24,7 @@
     justify-content: center;
     column-gap: 2%;
     flex-wrap: wrap;
-    row-gap: 10%;
+    row-gap: 20px;
     position: relative;
     text-align: center;
 
@@ -66,3 +66,30 @@
 .BoxBestTravelersMonthContainer h5{
     margin-top: -0.1px;
 }
+
+
+@media (min-width : 1023px ) {
+
+ 
+}
+
+@media (max-width : 834px ) {
+    .BestTravelersMonthcontainer h1{
+        font-size: 40px;
+        padding-left: 10%;
+    }
+   
+  
+   
+}
+
+@media (max-width : 768px ) {
+   
+}
+
+@media (max-width : 480px ) {
+    .BestTravelersMonthcontainer h1{
+        font-size: 30px;
+    }
+}
+

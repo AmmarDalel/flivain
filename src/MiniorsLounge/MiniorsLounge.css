@@ -26,18 +26,15 @@
 }
 
 
-@media (min-width : 1023px ) {
+@media (max-width : 1023px ) {
     .MiniorsLoungeContainer{
         padding-left: 0%;
        
     }
-}
 
-@media (min-width : 834px ) {
-    
     .MiniorsLoungeContainer{
       
-        column-gap: 5%;
+       column-gap: 5%;
        padding-left: 0%;
        
     }
@@ -51,10 +48,36 @@
     }
 }
 
-@media (min-width : 768px ) {
-   
+@media (max-width : 834px ) {
+  
+    .MiniorsLoungeinfo h1{
+        font-size: 40px;
+        max-width:100%;
+    }
+    .MiniorsLoungeContainer{
+      
+        column-gap: 3%;
+    }
 }
 
-@media (min-width : 480px ) {
+@media (max-width : 768px ) {
+   .BoxMiniorsLoungecontainer h2{
+    font-size:17px;
+   }
+   .BoxMiniorsLoungecontainer p{
+    font-size: 13px;
+   }
+   .MiniorsLoungeContainer img{
+    width: 30%;
+}
+}
+
+@media (max-width : 480px ) {
+    .MiniorsLoungeContainer{
+        min-height: 80vh;
+    }
+    .MiniorsLoungeinfo h1{
+        font-size: 30px;
+    }
   
 }

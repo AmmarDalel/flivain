@@ -1,6 +1,7 @@
 .Makememoriescontainer{
     background-color: #f1f7f7;
     min-height: 100vh;
+    padding-bottom: 5%;
 }
 
 .titlemakememoriescontainer{
@@ -65,4 +66,39 @@
     justify-content: center;
     column-gap: 3%;
     flex-wrap: wrap;
+}
+
+
+@media (max-width : 1023px ) {
+    .titlemakememoriescontainer h1{
+        font-size: 40px;
+        width: 100%;
+    }
+}
+
+@media (max-width : 834px ) {
+    .Makememoriescontainer{
+        min-height: 70vh;
+    }
+
+    .titlemakememoriescontainer h1{
+        font-size: 40px;
+    }
+    .titlemakememoriescontainer{
+       flex-direction: column;
+       margin-bottom: 10%;
+    }
+    
+}
+
+@media (min-width : 768px ) {
+   
+}
+
+@media (max-width : 480px ) {
+
+    .titlemakememoriescontainer h1{
+        font-size: 30px;
+    }
+  
 }

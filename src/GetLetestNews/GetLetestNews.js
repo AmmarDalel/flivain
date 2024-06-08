@@ -1,12 +1,17 @@
-import React from 'react'
+import React , {useEffect} from 'react'
 import './GetLetestNews.css'
 import Footerdata from './data'
+import AOS from 'aos' ;
+import 'aos/dist/aos.css'
 function GetLetestNews() {
+    useEffect(()=>{
+        AOS.init({duration:1500});
+      },[])
   return (
     <div className='GetLetestNewscontainer'>
-        <h1>get letest News</h1>
+        <h1  data-aos="zoom-in">get letest News</h1>
         <div className='subscribecontainer'>
-            <input type='text' placeholder='Enter your E-mail address'></input>
+            <input type='email' placeholder='Enter your E-mail address'></input>
             <button>Subscribe Now</button>
         </div>
         <footer>
